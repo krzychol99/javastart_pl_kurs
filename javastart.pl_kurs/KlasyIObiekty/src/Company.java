@@ -7,7 +7,7 @@ public class Company {
         Employee emp1 = new Employee();
         emp1.firstName = "Jan";
         emp1.lastName = "Nowak";
-        emp1.age = 25;
+        emp1.age = 29;
         emp1.seniority = 2.3;
 
         Employee emp2 = new Employee();
