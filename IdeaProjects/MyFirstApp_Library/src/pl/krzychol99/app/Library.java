@@ -7,16 +7,20 @@ import pl.krzychol99.data.Book;
  */
 public class Library {
     public static void main(String[] args) {
-        final String appName = "Biblioteka v0.4";
-
-        Book book1 = new Book("Java. Podstawy. Wydanie VIII", "Cay S. Horstmann, Gary Cornell",
+        final String appName = "Biblioteka v0.5";
+        Book [] books = new Book[1000];
+        books[0] = new Book("Ogniem i mieczem", "Henryk Sienkiewicz",
+                            2000, 521, "WSSiP", "118-33-346-1478-32");
+        books[1] = new Book("Java. Podstawy. Wydanie VIII", "Cay S. Horstmann, Gary Cornell",
                             2008, 888, "Helion", "978-83-246-1478-3");
-        Book book2 = new Book("W pustyni i w puszczy", "Henryk Sienkiewicz",
+        books[2] = new Book("W pustyni i w puszczy", "Henryk Sienkiewicz",
                             1987,544, "PWN", "978-83-246-1478-3" );
 
         System.out.print(appName);
         System.out.println("Książki dostępne w bibliotece:");
-        book1.printInfo();
-        book2.printInfo();
+        books[0].printInfo();
+        books[1].printInfo();
+        books[2].printInfo();
+        System.out.println("System może przechowywać do " + books.length + " książek");
     }
 }
