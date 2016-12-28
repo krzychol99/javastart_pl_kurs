@@ -16,7 +16,7 @@ public class Library {
         books[2] = new Book("W pustyni i w puszczy", "Henryk Sienkiewicz",
                             1987,544, "PWN", "978-83-246-1478-3" );
 
-        System.out.print(appName);
+        System.out.println(appName);
         System.out.println("Książki dostępne w bibliotece:");
         books[0].printInfo();
         books[1].printInfo();
