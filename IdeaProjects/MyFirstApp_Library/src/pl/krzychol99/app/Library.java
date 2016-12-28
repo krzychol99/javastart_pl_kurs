@@ -1,9 +1,13 @@
+package pl.krzychol99.app;
+
+import pl.krzychol99.data.Book;
+
 /**
  * Created by MałaMi on 2016-12-18.
  */
 public class Library {
     public static void main(String[] args) {
-        final String appName = "Biblioteka v0.2";
+        final String appName = "Biblioteka v0.4";
 
         Book book1 = new Book("Java. Podstawy. Wydanie VIII", "Cay S. Horstmann, Gary Cornell",
                             2008, 888, "Helion", "978-83-246-1478-3");
