@@ -1,6 +1,9 @@
+package pl.krzychol99.app;
+
+import pl.krzychol99.data.Calculator;
+
 import java.util.Locale;
 import java.util.Scanner;
-
 /**
  * Created by krzychol99 on 2016-12-30.
  */

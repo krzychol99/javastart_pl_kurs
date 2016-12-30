@@ -1,3 +1,5 @@
+package pl.krzychol99.data;
+
 /**
  * Created by krzychol99 on 2016-12-30.
  */
